@@ -82,3 +82,12 @@ body{
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
 }
+
+#tituloVideotutorial{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
