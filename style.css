@@ -1,0 +1,71 @@
+body{
+    background-color: #aa8caf;
+}
+
+#logoGrandePaginaPrincipal{
+    width: 400px;
+    text-align: right;
+    display:block;
+    margin:auto;
+}
+
+#tituloPrincipal{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.descripcion{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+#divFuncionalidades{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#tituloFuncionalidades{
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.descripcionFuncionalidades{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+#divCaracteristicas{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+#tituloCaracteristicas{
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.descripcionCaracteristicas{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
