@@ -1,10 +1,15 @@
 body{
-    background-color: rgba(128, 58, 185, 0.568);
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
     font-family: 'Zilla Slab', serif;
 }
 
+main{
+    padding-right: 5%;
+    padding-bottom: 30%;
+}
+
 #logoGrandePaginaPrincipal{
-    width: 400px;
+    width: 300px;
     text-align: right;
     display:block;
     margin:auto;
@@ -13,17 +18,41 @@ body{
 #tituloPrincipal{
     font-size: 50px;
     text-align: center;
-    color: #fff;
+    color: #363636;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
 }
 
+.ajuste {
+    width: 100%;
+    height: 600%;
+    font-size: 50%;
+}
+
+.ajusteImagen{
+    width:50%;
+}
+
+.ajusteFuncionalidades{
+    width: 100%;
+    height: 600%;
+    font-size: 50%;
+    
+}
+
+.ajusteCaracteristicas{
+    width: 100%;
+    height: 600%;
+    font-size: 50%;
+}
+
 .descripcion{
     font-size: 18px;
-    text-align: center;
+    text-align:left;
     color: #fff;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
+    margin-right: 10%;
 }
 
 #divFuncionalidades{
@@ -32,20 +61,26 @@ body{
 }
 
 #tituloFuncionalidades{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
-    text-align: center;
-    color: #fff;
+    text-align: left;
+    color: #363636;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
 }
 
 .descripcionFuncionalidades{
     font-size: 18px;
-    text-align: center;
+    text-align:left;
     color: #fff;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
+    
+}
+
+#imagenFuncionalidades{
+    height: 10%;
+    width: 70%;
 }
 
 #divCaracteristicas{
@@ -55,41 +90,128 @@ body{
 }
 
 #tituloCaracteristicas{
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     text-align: center;
-    color: #fff;
+    color: #363636;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
+    margin-left: 50%;
 }
 
 .descripcionCaracteristicas{
     font-size: 18px;
-    text-align: center;
+    text-align:left;
     color: #fff;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
+   
 }
 
-#footer{
-    margin-top: 50px;
+#imagenCaracteristicas{
+    height: 10%;
+    width: 100%;
 }
 
+
+/* EQUIPO */ 
 #tituloEquipo{
     text-align: center;
     font-size: 50px;
     text-align: center;
-    color: #fff;
+    color: #363636;
     font-family: 'Zilla Slab', serif;
-    margin-top: 20px;
+    margin-top: 80px; 
 }
 
+#imagenPastor{
+    width: 100%;
+    height: 60%;
+}
+
+#imagenMarc{
+    width: 100%;
+    height: 60%;
+}
+
+#imagenMonika{
+    width: 100%;
+    height: 60%;
+}
+
+#imagenBernat{
+    width: 100%;
+    height: 60%;
+}
+
+#grad{
+    background-image: linear-gradient(hsl(0, 0%, 100%), hsla(288, 89%, 29%, 0.55));
+    margin-bottom: -25%;
+    margin-left: 5%;
+}
+
+/* VIDEOTUTORIAL*/
 #tituloVideotutorial{
     text-align: center;
     font-size: 50px;
     text-align: center;
-    color: #fff;
+    color: #363636;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
 }
 
+/* FORMULARIO */
+
+.divForm{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    background-color: #363636;
+    padding-top: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.background-color{
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
+    margin-bottom: -15%;
+}
+
+/* POLITICA DE PRIVACIDAD*/
+
+#texto{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+} 
+
+#textoTitulo{
+    text-align: center;
+    font-size: x-large;
+}
+
+.colorFondo{
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+
+/* TERMINOS Y CONDICIONES*/
+#textoTerminos{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#textoTituloTerminos{
+    text-align: center;
+    font-size: x-large;
+}
+
+.colorFondo{
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
+    padding-bottom: 5%;
+    padding-top: 4%;
+}

@@ -1,14 +1,278 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Política de privacidad</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Your Volunteer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans:wght@300&family=Raleway:ital,wght@1,900&family=Zilla+Slab:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/otros/favicon/favicon.png">
 </head>
+
 <body>
     
+    <header>
+
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-purple-800">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="index.html" class="flex items-center">
+                    <img src="assets/images/logo_white_large.png" class="mr-3 h-6 sm:h-9"
+                        alt="Logo Meet Your Volunteer">
+                    <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Meet Your
+                        Volunteer</span>
+                </a>
+                <button data-collapse-toggle="mobile-menu" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                        <li>
+                            <a href="index.html"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="equipo.html"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Equipo</a>
+                        </li>
+                        <li>
+                            <a href="videotutorial.html"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">VideoTutorial</a>
+                        </li>
+                        <li>
+                            <a href="formulario.html"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Formulario</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Fin del header-->
+
+    <main class="colorFondo">
+        <div id="texto">
+            <p class="descripcionPoliticaPrivacidad" id="textoTitulo">Política de privacidad Meet Your Volunteer</p>
+
+            <p>¿Quién es el responsable del tratamiento de tus datos?</p>
+
+            <p>El responsable del tratamiento es Meet your volunteer, provista e CIF G-84451087, con domicilio social en
+                c/ Mauricio Legendre, 36; Madrid, nº. (C.P.: 28046). Puedes contactar con nosotros a través del teléfono
+                de atención al cliente 913789555, o a través de nuestro correo electrónico:
+                protecciondatos@meetyourvolunteer.es.</p><br>
+
+            <p>¿Cómo recabamos tus datos personales?</p><br>
+
+            <p>Recabamos los datos personales que nos facilitas a través de nuestra web, mediante formularios o campos a
+                completar o a través del correo electrónico. En el momento de
+                recogida se te informará de nuestra Política de protección de datos.
+
+                Asimismo, recabamos y almacenamos información personal limitada y estadísticas globales anónimas de
+                todos aquellos usuarios que visitan nuestra web, ya sea porque nos facilites dicha información de forma
+                activa o simplemente navegues en nuestra web. Esta información se recaba a través de cookies, para más
+                información consulte la Política de cookies (Aviso Legal).</p><br>
+
+            <p>¿Con qué finalidad tratamos tus datos personales?</p><br>
+
+            <p>En Meet Your Volunteer tratamos la información que nos facilitas con la finalidad de atender tu petición
+                y
+                prestar el servicio solicitado, así como para mantenerte informado por diversos canales de comunicación
+                sobre cuestiones relativas a nuestra actividad, iniciativas de naturaleza similar a las que hayas
+                participado con anterioridad o sobre las que nos hayas solicitado información y sobre campañas de
+                información, sensibilización y captación de fondos.</p><br>
+
+            <p>¿Por cuánto tiempo conservaremos tus datos?</p><br>
+
+            <p>Mantendremos tus datos personales mientras exista una relación o mientras no ejerzas tu derecho de
+                supresión, cancelación y/o limitación del tratamiento de tus datos. En estos casos, bloquearemos tus
+                datos, sin darle ningún uso, salvo que exista obligación legal de mantenerlos, en cuyo caso sería
+                necesaria su recuperación.</p><br>
+
+            <p>¿Cuál es la legitimación para el tratamiento de sus datos?</p><br>
+
+            <p>El tratamiento de tus datos se realiza para el cumplimiento de obligaciones legales por parte de Meet
+                Your Volunteer
+                España, tales como informar a la Agencia Tributaria de tus donaciones o cumplir la normativa de lucha
+                contra el blanqueo de capitales y la financiación al terrorismo. La falta de aportación de la
+                información requerida para este fin supone la imposibilidad de darte de alta como socio o de colaborar
+                económicamente con Meet Your Volunteer.
+
+                Cuando la finalidad del tratamiento requiera tu consentimiento, este será prestado mediante una clara
+                acción afirmativa al rellenar voluntariamente el formulario correspondiente y aceptar la presente
+                Política de privacidad.
+
+                El envío de información sobre nuestra actividad de la Fundación encuentra su legitimación en el interés
+                legítimo de Meet Your Volunteer, responsable del tratamiento.
+
+                Puedes manifestar en cualquier momento tu oposición a este tipo de tratamiento sin que en ningún caso el
+                ejercicio de este derecho suponga la terminación de tu colaboración o tu baja como socio, salvo que así
+                nos lo solicites.</p><br>
+
+            <p>¿A qué destinatarios se comunicarán sus datos?</p><br>
+
+            <p>Con carácter general no se comunicarán tus datos personales a terceros salvo en las siguientes
+                excepciones:</p><br>
+
+            <p>Cuanto te hagas socio o realices un donativo enviaremos tus datos a la Administración Tributaria
+                incluyendo la cuantía de tus aportaciones con el fin de que puedas desgravar tus contribuciones
+                monetarias.
+                En el caso de que una autoridad judicial o administrativa nos solicite datos de nuestros ficheros, se
+                los comunicaremos siempre que se cumplan las exigencias legales previstas.
+                A colaboradores y/o empresas que trabajan para UNICEF Comité. Estas terceras empresas solo tienen acceso
+                a los datos personales necesarios para llevar a cabo el servicio contratado, no pueden utilizarlos de
+                ninguna otra forma que aquella que les hemos solicitado y siempre bajo acuerdo de confidencialidad.
+                Los datos personales que almacenamos se transmiten siempre bajo conexiones seguras, de modo que tus
+                datos viajan por Internet encriptados y seguros.</p><br>
+
+            <p>¿Cuáles son tus derechos?</p><br>
+
+            <p>Mediante solicitud escrita y firmada, acompañada de copia del Documento de Identidad, dirigida a Meet
+                Your Volunteer,
+                C/ Mauricio Legendre,36 28046 Madrid, o a protecciondatos@unicef.es, puedes
+                ejercer tus derechos de acceso, rectificación, supresión y portabilidad de sus datos, de limitación y
+                oposición a su tratamiento
+                Responderemos a tus peticiones a la mayor brevedad posible y, en todo caso, en el plazo de un mes desde
+                la recepción de su solicitud. Dicho plazo podrá prorrogarse otros dos meses en caso necesario, teniendo
+                en cuenta la complejidad y el número de solicitudes. El responsable informará al interesado de la
+                prórroga dentro del primer mes desde la solicitud.
+                retirar en cualquier momento el consentimiento prestado para el tratamiento o comunicación de tus datos.
+            </p><br>
+            <p>Asimismo, tienes derecho a interponer una reclamación ante la Agencia Española de Protección de Datos (C/
+                Jorge Juan, 6. 28001-Madrid - Telf.: 901 100 099/ 91.266.35.1 - https://www.aepd.es)</p><br>
+
+            <p>Actualización</p><br>
+
+            <p>La presente Política de privacidad ha sido actualizada el 31/10/2019. Meet Your Volunteer se reserva el
+                derecho
+                de modificar su política de protección de datos en el supuesto de que exista un cambio de la legislación
+                vigente, doctrina jurisprudencial o por criterios propios. Si se introdujese algún cambio en esta
+                Política, el nuevo texto se publicará en esta misma dirección web.</p><br>
+        </div>
+    </main>
+
+    <!--Inicio del footer-->
+    <footer class="bg-purple-900" id="footer">
+        <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Compañía</h2>
+                <ul class="text-gray-300">
+                    <li class="mb-4">
+                        <a href="index.html" class=" hover:underline">Inicio</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="equipo.html" class="hover:underline">Equipo</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="videotutorial.html" class="hover:underline">Videotutorial</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Atención</h2>
+                <ul class="text-gray-300">
+                    <li class="mb-4">
+                        <a href="https://www.instagram.com/" class="hover:underline" target="_blank">Instagram</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="https://twitter.com/?lang=es" class="hover:underline" target="_blank">Twitter</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="https://es-es.facebook.com/" class="hover:underline" target="_blank">Facebook
+                        </a>
+                    </li><a href="#" class="hover:underline">
+                    </a>
+                    <li class="mb-4"><a href="#" class="hover:underline">
+                        </a><a href="formulario.html" class="hover:underline">Contacta con nosotros</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Legal</h2>
+                <ul class="text-gray-300">
+                    <li class="mb-4">
+                        <a href="politicaPrivacidad.html" class="hover:underline">Política de privacidad</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="terminosCondiciones.html" class="hover:underline">Términos &amp; Condiciones</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Descarga</h2>
+                <ul class="text-gray-300">
+                    <li class="mb-4">
+                        <a href="https://github.com/MonikaDeleva/ProyectoIntegrado" class="hover:underline"
+                            target="_blank">Windows</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="py-6 px-4 bg-purple-900 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-300 sm:text-center">© 2022 <a href="https://flowbite.com">Meet Your
+                    Volunteer</a>. All
+                Rights Reserved.
+            </span>
+            <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+                <a href="#" class="text-gray-400 hover:text-white" target="_blank">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white" target="_blank">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white" target="_blank">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://github.com/MonikaDeleva/ProyectoIntegrado" class="text-gray-400 hover:text-white"
+                    target="_blank">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Fin del footer-->
+
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
 </body>
+
 </html>
