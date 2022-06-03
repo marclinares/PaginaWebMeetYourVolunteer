@@ -1,21 +1,21 @@
-body{
+body {
     background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
     font-family: 'Zilla Slab', serif;
 }
 
-main{
+main {
     padding-right: 5%;
     padding-bottom: 30%;
 }
 
-#logoGrandePaginaPrincipal{
+#logoGrandePaginaPrincipal {
     width: 300px;
     text-align: right;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
-#tituloPrincipal{
+#tituloPrincipal {
     font-size: 50px;
     text-align: center;
     color: #363636;
@@ -29,38 +29,38 @@ main{
     font-size: 50%;
 }
 
-.ajusteImagen{
-    width:50%;
+.ajusteImagen {
+    width: 50%;
 }
 
-.ajusteFuncionalidades{
+.ajusteFuncionalidades {
     width: 100%;
     height: 600%;
     font-size: 50%;
-    
+
 }
 
-.ajusteCaracteristicas{
+.ajusteCaracteristicas {
     width: 100%;
     height: 600%;
     font-size: 50%;
 }
 
-.descripcion{
+.descripcion {
     font-size: 18px;
-    text-align:left;
+    text-align: left;
     color: #fff;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
     margin-right: 10%;
 }
 
-#divFuncionalidades{
+#divFuncionalidades {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-#tituloFuncionalidades{
+#tituloFuncionalidades {
     text-align: left;
     font-size: 30px;
     text-align: left;
@@ -69,27 +69,27 @@ main{
     margin-top: 20px;
 }
 
-.descripcionFuncionalidades{
+.descripcionFuncionalidades {
     font-size: 18px;
-    text-align:left;
+    text-align: left;
     color: #fff;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
-    
+
 }
 
-#imagenFuncionalidades{
+#imagenFuncionalidades {
     height: 10%;
     width: 70%;
 }
 
-#divCaracteristicas{
+#divCaracteristicas {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 80px;
 }
 
-#tituloCaracteristicas{
+#tituloCaracteristicas {
     text-align: right;
     font-size: 30px;
     text-align: center;
@@ -99,59 +99,59 @@ main{
     margin-left: 50%;
 }
 
-.descripcionCaracteristicas{
+.descripcionCaracteristicas {
     font-size: 18px;
-    text-align:left;
+    text-align: left;
     color: #fff;
     font-family: 'Zilla Slab', serif;
     margin-top: 20px;
-   
+
 }
 
-#imagenCaracteristicas{
+#imagenCaracteristicas {
     height: 10%;
     width: 100%;
 }
 
 
-/* EQUIPO */ 
-#tituloEquipo{
+/* EQUIPO */
+#tituloEquipo {
     text-align: center;
     font-size: 50px;
     text-align: center;
     color: #363636;
     font-family: 'Zilla Slab', serif;
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
-#imagenPastor{
+#imagenPastor {
     width: 100%;
     height: 60%;
 }
 
-#imagenMarc{
+#imagenMarc {
     width: 100%;
     height: 60%;
 }
 
-#imagenMonika{
+#imagenMonika {
     width: 100%;
     height: 60%;
 }
 
-#imagenBernat{
+#imagenBernat {
     width: 100%;
     height: 60%;
 }
 
-#grad{
+#grad {
     background-image: linear-gradient(hsl(0, 0%, 100%), hsla(288, 89%, 29%, 0.55));
     margin-bottom: -25%;
     margin-left: 5%;
 }
 
 /* VIDEOTUTORIAL*/
-#tituloVideotutorial{
+#tituloVideotutorial {
     text-align: center;
     font-size: 50px;
     text-align: center;
@@ -162,7 +162,7 @@ main{
 
 /* FORMULARIO */
 
-.divForm{
+.divForm {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 50px;
@@ -174,43 +174,43 @@ main{
     border-radius: 15px;
 }
 
-.background-color{
+.background-color {
     background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
     margin-bottom: -15%;
 }
 
 /* POLITICA DE PRIVACIDAD*/
 
-#texto{
+#texto {
     text-align: justify;
     padding-left: 20%;
     padding-right: 20%;
-} 
+}
 
-#textoTitulo{
+#textoTitulo {
     text-align: center;
     font-size: x-large;
 }
 
-.colorFondo{
+.colorFondo {
     background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
     padding-bottom: 5%;
     padding-top: 4%;
 }
 
 /* TERMINOS Y CONDICIONES*/
-#textoTerminos{
+#textoTerminos {
     text-align: justify;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-#textoTituloTerminos{
+#textoTituloTerminos {
     text-align: center;
     font-size: x-large;
 }
 
-.colorFondo{
+.colorFondo {
     background-image: linear-gradient(hsla(0, 0%, 100%, 0.637), hsla(288, 89%, 29%, 0.55));
     padding-bottom: 5%;
     padding-top: 4%;
